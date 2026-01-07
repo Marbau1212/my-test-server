@@ -1,0 +1,15 @@
+{
+    "name": "Apache2 mit PHP",
+    "image": "mcr.microsoft.com/devcontainers/php:0-apache",
+    "forwardPorts": [
+        80
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-json"
+            ]
+        }
+    },
+    "workspaceFolder": "/workspaces/codespace_setup_yepszhhv/src"
+}
